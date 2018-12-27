@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  loki:
+  - appVersion: 0.0.1
+    created: 2018-12-27T14:02:29.936644-05:00
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: db6064354d08ccb11db35d6067cccd4628e882e79c7102ec2b76d929b440e2c7
+    engine: gotpl
+    home: https://grafana.com/loki
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    - email: jason@barefootcoders.com
+      name: Jason Berlinsky
+    name: loki
+    sources:
+    - https://github.com/BarefootCoders/loki-helm
+    urls:
+    - loki-0.0.1.tgz
+    version: 0.0.1
+generated: 2018-12-27T14:02:29.935864-05:00
